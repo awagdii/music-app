@@ -1,0 +1,9 @@
+<div class="form-group">
+  <input type="text"
+         id="inputtext"
+         class="form-control"
+         placeholder="Enter country name"
+         (keyup.enter)="getTopTrackInRegion($event)"
+         [(ngModel)]="regionName"/>
+
+</div>

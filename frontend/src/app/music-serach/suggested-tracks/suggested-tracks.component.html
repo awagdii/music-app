@@ -1,0 +1,18 @@
+<table  *ngIf="tracks.length!=0"  class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col"></th>
+    <th scope="col">Name</th>
+    <th scope="col">Artist</th>
+    <th scope="col">Number Of Listeners</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let track of tracks">
+    <th scope="row"></th>
+    <td>{{track.name}}</td>
+    <td>{{track.artist}}</td>
+    <td>{{track.listeners}}</td>
+  </tr>
+  </tbody>
+</table>

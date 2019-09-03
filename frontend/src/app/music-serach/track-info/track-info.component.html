@@ -1,0 +1,24 @@
+<table *ngIf="topTrack" class="table table-striped">
+  <tbody>
+  <tr>
+    <th scope="row"></th>
+    <td>Top Track In the region is : </td>
+    <td>{{topTrack.name}}</td>
+  </tr>
+  <tr>
+    <th scope="row"></th>
+    <td>Number Of Listeners : </td>
+    <td>{{topTrack.listeners}}</td>
+  </tr>
+  <tr>
+    <th scope="row"></th>
+    <td>Artist Name</td>
+    <td>{{topTrack.artist.name}}</td>
+  </tr>
+  <tr>
+    <th scope="row"></th>
+    <td>Artist url</td>
+    <td>{{topTrack.artist.url}}</td>
+  </tr>
+  </tbody>
+</table>
