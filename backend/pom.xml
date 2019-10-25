@@ -83,12 +83,12 @@
             <version>${org.hamcrest.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>thirdparty.powermock</groupId>
-            <artifactId>powermock-mockito</artifactId>
-            <classifier>full</classifier>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>thirdparty.powermock</groupId>-->
+            <!--<artifactId>powermock-mockito</artifactId>-->
+            <!--<classifier>full</classifier>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
